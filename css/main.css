@@ -1,0 +1,13 @@
+body {
+    color: #040408;
+    font-family: Helvetica, 'Helvetica Neue', sans-serif;
+}
+
+#credits dt{
+    font-size: 20px;
+}
+
+#credits dd {
+    font-size: 13px;
+}
+
