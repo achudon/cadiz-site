@@ -1,15 +1,45 @@
 @import url(http://fonts.googleapis.com/css?family=Didact+Gothic|Handlee);
 
-.container {
-    padding: 0;
+body {
+    color: #193A41;
+    font-family: 'Didact Gothic', 'Helvetica Neue', sans-serif;
     background-image: url(../img/foggy_birds_@2X.png);
 }
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    margin: 0;
+}
+
+h1 {
+    color: #457D8D;
+
+    padding: 10px 20px;
+}
+
+h2 {
+    color: #5d5c4d
+}
+
+p {
+    color: #4a5880;
+    font-size: 20px;
+}
+
+
+
 header {
+    margin: 0;
     position: relative;
     height: 150px;
     background-image: url(../img/headerbground2.jpg);
     background-position: 0%, 50%;
     background-size: cover;
+
 }
 
 header h1 {
@@ -17,7 +47,11 @@ header h1 {
     font-size: 50px;
     padding-top: 10px;
     padding-left: 10px;
+    line-height: .5em;
+    background-color: transparent;
 }
+
+
 
 nav {
     background-color: rgba(63, 32, 117, 0.55);
@@ -33,9 +67,8 @@ nav li {
     margin-right: 1.5em;
 }
 
-body {
-    color: #040408;
-    font-family: 'Didact Gothic', 'Helvetica Neue', sans-serif;
+span.tab {
+    padding-left: 50px;
 }
 
 
