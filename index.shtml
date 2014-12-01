@@ -82,7 +82,7 @@
     </section>
 
     </main>
-    <!--#include virtual="/common/footer.html" -->
+    <!--#include virtual="common/footer.html" -->
 
 </body>
     <script type="text/javascript" src="js/facebookIntegration.js"></script>
