@@ -51,8 +51,7 @@
     </section>
 
     </main>
-
-    <!--#include virtual="common/footer.html" -->
+    <!--#include virtual="/common/footer.html" -->
 
 </body>
 
