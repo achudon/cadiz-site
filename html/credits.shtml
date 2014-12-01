@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="icon" href="../img/spain.png"/>
+    <title>NW Cádiz Credits</title>
+</head>
+<body>
+    <!--#include virtual="../common/header.html" -->
+    <h1>Credits (for images and other material found on the site)</h1>
+    <dl id="credits">
+        <dt>Icon</dt>
+        <dd>Vathanx, under <a href="http://creativecommons.org/licenses/by-nc/3.0/nl/deed.en_GB">CC license BY-NC
+            3.0 NL</a>. For image, see <a href="https://www.iconfinder.com/icons/96317/flag_of_spain_icon#size=256">
+            https://www.iconfinder.com/icons/96317/flag_of_spain_icon#size=256</a>.</dd>
+
+        <dt>Gallery Photo Credits, Camels and Beach pictures on About page</dt>
+        <dd>Rebecca Bennett, Stephen LaPlante, Katrina Peters, Judith Prado</dd>
+
+        <dt>University of Cádiz picture on About page</dt>
+        <dd><a href="http://www.geneseo.edu/study_abroad/cadiz-semester-exchange">http://www.geneseo.edu/study_abroad/
+            cadiz-semester-exchange
+        </a>
+        </dd>
+    </dl>
+    <!--#include virtual="../common/footer.html" -->
+
+
+</body>
+</html>
