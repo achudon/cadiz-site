@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="icon" href="img/spain.png"/>
+    <title>NW Cádiz</title>
+</head>
+
+<body>
+<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '474734025997699',
+          xfbml      : true,
+          version    : 'v2.2'
+        });
+      };
+</script>
+<main class="container-fluid" id="top">
+    <!--#include virtual="common/header.html" -->
+
+    <div id="tagline">
+        <h1>Live and study in <strong>Cádiz, Spain</strong>, for a semester or a full academic year.</h1>
+    </div>
+
+    <section id="welcome">
+        <div class="col-md-4">
+            <h2>Live in Cádiz, Spain</h2>
+            <p>Students in the NW Cádiz program live with local host families close the university for the duration of their
+            stay.</p>
+            <p></p>
+            <img src="./img/cadizBeach.jpg" alt=""/>
+        </div>
+
+        <div class="col-md-4">
+            <h2>Attend the University of Cádiz</h2>
+            <p>Take classes taught in Spanish at the
+                University of Cádiz's Facultad de Filosofía y Letras.</p>
+            <img src="./img/Universidad_de_Cádiz.png" id="u-cadiz" alt=""/>
+        </div>
+
+        <div class ="col-md-4">
+            <h2>Experience Spain and Europe</h2>
+            <p>Use Cádiz as a base to explore more of Europe, as well as Morocco and the
+                 Canary Islands.</p>
+            <img src="./img/moroccoCamels.jpg" alt="riding camels in Morocco"/>
+        </div>
+
+    </section>
+
+    <section id="gallery">
+
+    </section>
+
+    <section id="facebook">
+    <div id="fb-root"><div class="fb-comments" data-href="https://webster.cs.washington.edu/staff/tylerj11/cadiz-site/index.shtml" data-numposts="5" data-colorscheme="light"></div></div>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=474734025997699&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    </section>
+
+    </main>
+    <!--#include virtual="common/footer.html" -->
+
+</body>
+
+</html>
