@@ -11,10 +11,7 @@
 
 <body>
 <main class="container-fluid" id="top">
-
-<!--#config timefmt="%A" --> <!--#echo var="DATE_LOCAL" -->
-    <!--#include virtual="common/header.shtml" -->
-
+    <!--#include virtual="common/header.html" -->
 
     <div id="tagline">
         <h1>Live and study in <strong>Cádiz, Spain</strong>, for a semester or a full academic year.</h1>
@@ -23,7 +20,9 @@
     <section id="welcome">
         <div class="col-md-4">
             <h2>Live in Cádiz, Spain</h2>
-            <p>Stay with a local host family and immerse yourself in the unique cuisine and lifestyle of the city.</p>
+            <p>Students in the NW Cádiz program live with local host families close the university for the duration of their
+            stay.</p>
+            <p></p>
             <img src="./img/cadizBeach.jpg" alt=""/>
         </div>
 
@@ -31,7 +30,7 @@
             <h2>Attend the University of Cádiz</h2>
             <p>Take classes taught in Spanish at the
                 University of Cádiz's Facultad de Filosofía y Letras.</p>
-            <img src="./img/ucacampus2.jpg" id="u-cadiz" alt=""/>
+            <img src="./img/Universidad_de_Cádiz.png" id="u-cadiz" alt=""/>
         </div>
 
         <div class ="col-md-4">
@@ -53,13 +52,8 @@
 
     </main>
 
-</body>
+    <!--#include virtual="common/footer.html" -->
 
-<footer>
-        <section id="contact">
-            Contact Suzanne Martinez at <a href="mailto:petersen@u.washington.edu">petersen@u.washington.edu</a>
-        </section>
-        <a href="./html/credits.html">Credits</a>
-</footer>
+</body>
 
 </html>

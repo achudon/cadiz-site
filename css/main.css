@@ -17,7 +17,6 @@ main {
 
 h1 {
     color: #457D8D;
-
     padding: 10px 20px;
 }
 
@@ -37,28 +36,47 @@ p {
 header {
     margin: 0;
     position: relative;
-    height: 150px;
+    height: 130px;
     background-image: url(../img/headerbground2.jpg);
     background-position: 0%, 50%;
     background-size: cover;
-
 }
 
 header h1 {
     font-family: 'Handlee', 'Helvetica Neue', sans-serif;
-    font-size: 50px;
-    padding-top: 10px;
+    font-size: 70px;
+    color: white;
+    text-shadow: 3px 3px gray;
+    margin-top: 17px;
+    padding-top: 30px;
     padding-left: 10px;
     line-height: .5em;
     background-color: transparent;
 }
 
+#welcome {
+    margin: 20px 50px;
+}
 
+#tagline h1 {
+    text-align: center;
+    background-color: rgba(192, 205, 219, 0.39);
+    margin-top: 20px;
+}
+
+#welcome img {
+    height: 90%;
+    width: 90%;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 nav {
-    background-color: rgba(63, 32, 117, 0.55);
+    background-color: rgba(63, 32, 117, 0.80);
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     font-size: 125%;
 }
 
@@ -73,12 +91,15 @@ span.tab {
     padding-left: 50px;
 }
 
-
-#credits dt{
-    font-size: 20px;
+footer {
+    margin-top: 20px;
+    background-color: gray;
+    opacity: 0.9;
+    text-align: right;
+    padding-right: 15px;
 }
 
-#credits dd {
-    font-size: 13px;
+#contact {
+    font-size: 18px;
+    padding-bottom: 0;
 }
-

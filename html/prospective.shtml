@@ -5,7 +5,7 @@
     <title></title>
 </head>
 <body>
-	<!--#include virtual="common/header.html" -->
+	<!--#include virtual="../common/header.html" -->
 	<h1>Apply Now</h1>
 	<p>A limited number of early admissions will be granted to exceptionally qualified applicants before the published
         application deadline. For this reason, early submission of applications is permitted and even encouraged. In
@@ -31,6 +31,6 @@
     <h2>Another Cádiz Video</h2>
     <iframe width="560" height="315" src="//www.youtube.com/embed/M8WFUI-3afQ" frameborder="0" allowfullscreen></iframe>
 
-    <!--#include virtual="common/footer.html" -->
+    <!--#include virtual="../common/footer.html" -->
 </body>
 </html>
