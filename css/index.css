@@ -1,0 +1,35 @@
+#welcome {
+    margin-left: 20%;
+    margin-right: 10%;
+
+}
+
+#tagline h1 {
+    text-align: center;
+    background-color: rgba(192, 205, 219, 0.39);
+    margin: 20px 0 0 0;
+    font-size: 30px;
+
+}
+
+#welcome .row {
+    margin-top: 7%;
+    background-color: rgba(167, 156, 145, 0.33);
+    padding: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+#welcome img {
+    height: 100%;
+    width: 100%;
+    margin-top: 0;
+    display: block;
+    margin-left: 45%;
+}
+
+.post {
+    margin-bottom: 3em;
+}
+
+

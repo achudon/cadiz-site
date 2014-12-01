@@ -8,7 +8,7 @@ body {
 
 .container-fluid {
     padding: 0;
-    margin: 0;
+    margin: 10%;
 }
 
 main {
@@ -24,10 +24,40 @@ h2 {
     color: #5d5c4d
 }
 
-p {
-    color: #4a5880;
-    font-size: 20px;
+h3 {
+    color: #52555e;
 }
+
+.section-head {
+    padding-left: 300px;
+}
+
+p, dt, dd {
+    color: #4a5880;
+    font-size: 18px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+
+}
+
+body a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #4a5880;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #8a8a8a;
+}
+
 
 header {
     margin: 0;
@@ -50,24 +80,6 @@ header h1 {
     background-color: transparent;
 }
 
-#welcome {
-    margin: 20px 50px;
-}
-
-#tagline h1 {
-    text-align: center;
-    background-color: rgba(192, 205, 219, 0.39);
-    margin-top: 20px;
-}
-
-#welcome img {
-    height: 90%;
-    width: 90%;
-    margin-top: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 nav {
     background-color: rgba(63, 32, 117, 0.80);
@@ -81,6 +93,29 @@ nav li {
     list-style-type: none;
     display: inline-block;
     margin-right: 1.5em;
+}
+
+.side-menu {
+    display: block;
+    float: left;
+    clear: both;
+}
+
+.side-menu {
+    padding-left: 0;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.side-menu li {
+    background-color: rgba(116, 168, 218, 0.25);
+    margin-bottom: 5px;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #4a5880;
 }
 
 span.tab {
