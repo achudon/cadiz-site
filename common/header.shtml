@@ -3,8 +3,8 @@
     <nav>
         <ul>
             <li><a href="index.html">About</a></li>
-            <li><a href="./html/prospective.html">Prospective</a></li>
-            <li><a href="./html/admitted.html">Admitted</a></li>
+            <li><a href="./html/prospective.shtml">Prospective</a></li>
+            <li><a href="./html/admitted.shtml">Admitted</a></li>
         </ul>
     </nav>
 </header>
