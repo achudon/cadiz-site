@@ -49,10 +49,13 @@ body a {
     text-decoration: none;
 }
 
-a:link {
-    color: #4a5880;
+header a:link {
+    color: white;
 }
 
+header a:visited {
+    color:white;
+}
 a:hover {
     text-decoration: none;
     color: #8a8a8a;
