@@ -7,7 +7,6 @@ window.fbAsyncInit = function() {
 
     var accessToken = "474734025997699|aa62abbda78e9ffc10c39c3a88101a30"
     FB.api('286051361583488?fields=posts',{access_token : accessToken},	 function(response) {
-  		console.log(response.posts.data);
   		var posts = response.posts.data;
 
   		//This is neccessary because there's no garauntee a post has a message. We always wanted 5 posts, so the only way to do it
@@ -25,8 +24,8 @@ window.fbAsyncInit = function() {
   				date.innerHTML = posts[i].created_time.substring(0, 10);
   				post.appendChild(message);
   				post.appendChild(date);
-  				document.getElementById("facebookPosts").appendChild(post);
-  				
+  				console.log(document);
+  				document.getElementById("facebookPosts").appendChild(post);				
   			}
   		}
 	});
