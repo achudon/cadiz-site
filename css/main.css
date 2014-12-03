@@ -1,14 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Didact+Gothic|Handlee);
 
 body {
+    margin: 0;
+    padding: 0;
     color: #193A41;
     font-family: 'Didact Gothic', 'Helvetica Neue', sans-serif;
     background-image: url(../img/foggy_birds_@2X.png);
 }
 
-.container-fluid {
-    padding: 0;
-    margin: 10%;
+#tagline {
+    display: none;
 }
 
 main {
@@ -16,6 +17,7 @@ main {
 }
 
 h1 {
+    font-size: 3em;
     color: #457D8D;
     padding: 10px 20px;
 }
@@ -83,23 +85,33 @@ header h1 {
     background-color: transparent;
 }
 
-
 nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 6%;
     background-color: rgba(63, 32, 117, 0.80);
     position: absolute;
     bottom: 10px;
     font-size: 125%;
 }
 
+nav ul {
+    padding: 0;
+    margin: 0;
+}
 nav li {
-    padding-left: 10px;
+    padding: 5px 20px;
     list-style-type: none;
     display: inline-block;
-    margin-right: 1.5em;
+}
+
+
+nav li:hover {
+    background-color: rgba(63, 32, 117, 1);
 }
 
 .side-menu {
-    display: block;
+    display: none;
     float: left;
     clear: both;
 }
@@ -137,3 +149,37 @@ footer {
     font-size: 18px;
     padding-bottom: 0;
 }
+
+@media (min-width: 992px) {
+    body {
+        background-image: url('../img/foggy_birds_@2X.png');
+        font-size: 18px;
+    }
+
+    main.container-fluid {
+        padding: 0;
+        margin: 10%;
+    }
+
+    #tagline {
+        display: inline;
+    }
+
+    .side-menu {
+        display: block;
+    }
+
+    header {
+        position: relative;
+    }
+
+    nav {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+}
+
+
+
+
