@@ -137,12 +137,17 @@ span.tab {
     padding-left: 50px;
 }
 
-footer {
+footer.row {
     margin-top: 20px;
-    background-color: gray;
+    background-color: #2a6c74;
     opacity: 0.9;
     text-align: right;
     padding-right: 15px;
+    color: white;
+}
+
+footer a {
+    color: #ababab;
 }
 
 #contact {

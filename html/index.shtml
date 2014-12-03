@@ -11,17 +11,6 @@
 
 <body>
 <main class="container-fluid" id="top">
-
-    <header id="top">
-        <h1>NW Cádiz Program</h1>
-        <nav>
-            <ul>
-                <li><a href="index.shtml">About</a></li>
-                <li><a href="prospective.shtml">Prospective</a></li>
-                <li><a href="admitted.shtml">Admitted</a></li>
-            </ul>
-        </nav>
-    </header>
     <!--#include virtual="../common/header.html" -->
 
 
@@ -80,9 +69,9 @@
 
         </section>
     </section>
+    <!--#include virtual="../common/footer.html" -->
 
     </main>
-    <!--#include virtual="../common/footer.html" -->
 
 </body>
     <script type="text/javascript" src="../js/facebookIntegration.js"></script>
