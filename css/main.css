@@ -5,6 +5,7 @@ body {
     padding: 0;
     color: #193A41;
     font-family: 'Didact Gothic', 'Helvetica Neue', sans-serif;
+    background: white;
 }
 
 #tagline {
@@ -31,7 +32,7 @@ h3 {
 }
 
 .section-head {
-    padding-left: 300px;
+    text-align: center;
 }
 
 p, dt, dd {
@@ -110,21 +111,21 @@ nav li:hover {
     background-color: rgba(63, 32, 117, 1);
 }
 
-.side-menu {
+#side-menu {
     display: none;
     float: left;
     clear: both;
 }
 
-.side-menu {
+#side-menu {
     padding-left: 0;
     list-style-type: none;
-    font-size: 1.2em;
+    font-size: .9em;
     font-weight: bold;
     margin-top: 20px;
 }
 
-.side-menu li {
+#side-menu li {
     background-color: rgba(116, 168, 218, 0.25);
     margin-bottom: 5px;
     padding: 10px;
@@ -150,22 +151,23 @@ footer {
     padding-bottom: 0;
 }
 
+
+
 @media (min-width: 992px) {
     body {
-        background-image: url('../img/foggy_birds_@2X.png');
+        background: white;
         font-size: 18px;
     }
 
     main.container-fluid {
         padding: 0;
-        margin: 10%;
     }
 
     #tagline {
         display: inline;
     }
 
-    .side-menu {
+    #side-menu {
         display: block;
     }
 
@@ -177,6 +179,15 @@ footer {
         position: absolute;
         right: 20px;
         top: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    main {
+        width: 948px;
+    }
+    body {
+        margin: auto;
     }
 }
 

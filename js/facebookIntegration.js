@@ -22,9 +22,10 @@ window.fbAsyncInit = function() {
   				message.innerHTML = posts[i].message;
   				var date = document.createElement("p");
   				date.innerHTML = posts[i].created_time.substring(0, 10);
+                date.style.fontWeight = "bold";
+                post.appendChild(date);
   				post.appendChild(message);
-  				post.appendChild(date);
-  				console.log(document);
+  				post.className = "row";
   				document.getElementById("facebookPosts").appendChild(post);				
   			}
   		}
@@ -33,6 +34,7 @@ window.fbAsyncInit = function() {
 
   };
 
+    //This is the Facebook SDK, given to us from Facebook
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}

@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css"/>
     <link rel="stylesheet" href="../css/index.css"/>
-    <link rel="icon" href="img/spain.png"/>
+    <link rel="icon" href="../img/spain.png"/>
     <title>NW Cádiz</title>
 </head>
 
@@ -18,69 +18,63 @@
     <div id="tagline">
         <h1>Live and study in <strong>Cádiz, Spain</strong>, for a semester or a full academic year.</h1>
     </div>
-
-    <ul class="side-menu">
-        <li><a href="#program-intro">Program Introduction</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#facebook">Connect with the Program</a></li>
-    </ul>
+    <!--<section class="col-md-2">-->
+        <!--<ul id="side-menu">-->
+            <!--<li><a href="#program-intro">Introduction</a></li>-->
+            <!--<li><a href="#gallery">Gallery</a></li>-->
+            <!--<li><a href="#facebook">Connect</a></li>-->
+        <!--</ul>-->
+    <!--</section>-->
 
     <h1 class="section-head" id="program-intro">Program Introduction</h1>
 
-    <section id="welcome">
+    <section id="welcome" class="col-md-12">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-5 text">
                 <h2>Live in Cádiz, Spain</h2>
                 <p>Stay with a local host family and immerse yourself in the unique cuisine and lifestyle of the city.</p>
 
             </div>
 
-            <div class="col-md-5">
-                <img src="../img/cadizBeach.jpg" alt=""/>
+            <div class="col-md-5 picHolder">
+                <img src="../img/cadizBeach.jpg" class="welcomeImg" alt="beach"/>
             </div>
         </div>
 
-    <div class="row">
-        <div class="col-md-5">
-            <h2>Attend the University of Cádiz</h2>
-            <p>Take classes taught in Spanish at the
-                University of Cádiz's Facultad de Filosofía y Letras.</p>
-        </div>
+        <div class="row">
+            <div class="col-md-5 text">
+                <h2>Attend the University of Cádiz</h2>
+                <p>Take classes taught in Spanish at the
+                    University of Cádiz's Facultad de Filosofía y Letras.</p>
+            </div>
 
-        <div class="col-md-5">
-            <img src="../img/ucacampus2.jpg" id="u-cadiz" alt=""/>
-        </div>
+            <div class="col-md-5 picHolder">
+                <img src="../img/ucacampus2.jpg" class="welcomeImg" id="u-cadiz" alt="campus"/>
+            </div>
 
-    </div>
+        </div>
 
         <div class="row">
-            <div class ="col-md-5">
+            <div class ="col-md-5 text">
                 <h2>Experience Spain and Europe</h2>
                 <p>Use Cádiz as a base to explore more of Europe, as well as Morocco and the
                      Canary Islands.</p>
             </div>
 
-            <div class ="col-md-5">
-                <img src="../img/moroccoCamels.jpg" alt="riding camels in Morocco"/>
+            <div class ="col-md-5 picHolder">
+                <img src="../img/moroccoCamels.jpg" class="welcomeImg" alt="riding camels in Morocco"/>
             </div>
 
         </div>
 
 
-    </section>
+        <h1 class="section-head" id="facebook">Posts from the NW Cádiz Page
+            <a href="https://www.facebook.com/pages/NW-C%C3%A1diz-Program/286051361583488"><img src="../img/fb.png" alt="Facebook icon" /></a>
+        </h1>
 
-    <h1 class="section-head" id="gallery">Gallery</h1>
+        <section id = "facebookPosts">
 
-    <section>
-
-    </section>
-
-    <h1 class="section-head" id="facebook">Posts from the Facebook Page
-        <a href="https://www.facebook.com/pages/NW-C%C3%A1diz-Program/286051361583488"><img src="../img/fb.png" alt="Facebook icon" /></a>
-    </h1>
-
-    <section id = "facebookPosts">
-
+        </section>
     </section>
 
     </main>
