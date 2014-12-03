@@ -75,7 +75,9 @@
 
     </section>
 
-    <h1 class="section-head" id="facebook">Connect with the Program</h1>
+    <h1 class="section-head" id="facebook">Posts from the Facebook Page
+        <a href="https://www.facebook.com/pages/NW-C%C3%A1diz-Program/286051361583488"><img src="../img/fb.png" alt="Facebook icon></img></a>
+    </h1>
 
     <section id = "facebookPosts">
 
