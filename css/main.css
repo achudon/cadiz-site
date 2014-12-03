@@ -76,7 +76,7 @@ header {
 
 header h1 {
     font-family: 'Handlee', 'Helvetica Neue', sans-serif;
-    font-size: 70px;
+    font-size: 37px;
     color: white;
     text-shadow: 3px 3px gray;
     margin-top: 17px;
@@ -89,8 +89,8 @@ header h1 {
 nav {
     padding-left: 10px;
     padding-right: 10px;
-    margin-left: 6%;
-    background-color: rgba(63, 32, 117, 0.80);
+    margin-left: 2%;
+    background-color: rgba(35, 83, 91, 0.77);
     position: absolute;
     font-size: 125%;
 }
@@ -107,7 +107,7 @@ nav li {
 
 
 nav li:hover {
-    background-color: rgba(63, 32, 117, 1);
+    background-color: rgb(36, 85, 93);
 }
 
 #side-menu {
@@ -151,16 +151,16 @@ footer {
 }
 
 
-
+/*when screen becomes mobile size, change padding*/
 @media (min-width: 992px) {
     body {
         background: white;
         font-size: 18px;
     }
 
-    main.container-fluid {
-        padding: 0;
-    }
+    /*main.container-fluid {*/
+        /*padding: 0;*/
+    /*}*/
 
     #tagline {
         display: inline;
@@ -174,19 +174,22 @@ footer {
         position: relative;
     }
 
-    nav {
-        position: absolute;
-        right: 20px;
-        top: 10px;
-    }
 }
 
+/* When screen becomes very large, fix the size of the body */
 @media (min-width: 1200px) {
     main {
         width: 948px;
     }
     body {
         margin: auto;
+    }
+}
+
+/*When screen gets bigger, make font size larger */
+@media (min-width: 700px) {
+    header h1 {
+        font-size: 70px;
     }
 }
 

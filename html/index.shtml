@@ -12,19 +12,23 @@
 <body>
 <main class="container-fluid" id="top">
 
+    <header id="top">
+        <h1>NW Cádiz Program</h1>
+        <nav>
+            <ul>
+                <li><a href="index.shtml">About</a></li>
+                <li><a href="prospective.shtml">Prospective</a></li>
+                <li><a href="admitted.shtml">Admitted</a></li>
+            </ul>
+        </nav>
+    </header>
     <!--#include virtual="../common/header.html" -->
 
 
     <div id="tagline">
         <h1>Live and study in <strong>Cádiz, Spain</strong>, for a semester or a full academic year.</h1>
     </div>
-    <!--<section class="col-md-2">-->
-        <!--<ul id="side-menu">-->
-            <!--<li><a href="#program-intro">Introduction</a></li>-->
-            <!--<li><a href="#gallery">Gallery</a></li>-->
-            <!--<li><a href="#facebook">Connect</a></li>-->
-        <!--</ul>-->
-    <!--</section>-->
+
 
     <h1 class="section-head" id="program-intro">Program Introduction</h1>
 
