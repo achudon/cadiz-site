@@ -5,7 +5,6 @@ body {
     padding: 0;
     color: #193A41;
     font-family: 'Didact Gothic', 'Helvetica Neue', sans-serif;
-    background-image: url(../img/foggy_birds_@2X.png);
 }
 
 #tagline {
@@ -14,6 +13,7 @@ body {
 
 main {
     margin: 0;
+    background-image: url(../img/foggy_birds_@2X.png);
 }
 
 h1 {
