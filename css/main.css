@@ -1,11 +1,15 @@
 @import url(http://fonts.googleapis.com/css?family=Didact+Gothic|Handlee);
 
+html {
+    height: 100%;
+}
 body {
     margin: 0;
     padding: 0;
     color: #193A41;
     font-family: 'Didact Gothic', 'Helvetica Neue', sans-serif;
     background: white;
+    height: 100%;
 }
 
 #tagline {
@@ -15,6 +19,8 @@ body {
 main {
     margin: 0;
     background-image: url(../img/foggy_birds_@2X.png);
+    height: 100%;
+    position: relative;
 }
 
 h1 {
@@ -67,7 +73,6 @@ a:hover {
 
 header {
     margin: 0;
-    position: relative;
     height: 130px;
     background-image: url(../img/headerbground2.jpg);
     background-position: 0%, 50%;
@@ -144,6 +149,10 @@ footer.row {
     text-align: right;
     padding-right: 15px;
     color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
 }
 
 footer a {

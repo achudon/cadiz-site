@@ -2,31 +2,54 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="icon" href="../img/spain.png"/>
     <title></title>
 </head>
 <body>
+<main class="container-fluid">
+    <header id="top" class="row">
+        <h1>NW Cádiz Program</h1>
+        <nav>
+            <ul>
+                <li><a href="index.shtml">About</a></li>
+                <li><a href="prospective.shtml">Prospective</a></li>
+                <li><a href="admitted.shtml">Admitted</a></li>
+                <li><a href="brochure.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!--#include virtual="../common/header.html" -->
 
-<h2>Required Forms</h2>
-    <h3>Visa Application Form</h3>
-    <h3>Housing Preferences Form</h3>
+    <!--#include virtual="../common/header.html" -->
 
-<h2>Visa Application Process</h2>
-    <p>All students who take part in the NW Cádiz program are required to obtain a Spanish Visa prior to leaving the
-        US. <br/>More details about this will be given at the required orientations for the program (you will receive
-        emails about these orientations after being admitted to the program). <br/> IMPORTANT: You do NOT need to make
-        an individual appointment with the consulate. Suzanne Petersen will take all student visa applications down to
-        the San Francisco consulate at once.</p>
+    <h2>Required Forms</h2>
+        <h3>Visa Application Form</h3>
+        <h3>Housing Preferences Form</h3>
 
-<h2>Contact Information in Cádiz</h2>
-    <p><a href="http://faculty.washington.edu/petersen/cadiz/14-15/cadaddres.htm">Phones and addresses in Cádiz</a></p>
-    <p><a href="https://www.google.com/maps/place/C%C3%A1diz,+Spain/@36.5163864,-6.2824671,13z/data=!3m1!4b1!4m2!
-        3m1!1s0xd0dd25724ec240f:0x40463fd8ca03b00?hl=en">Cádiz map (Google maps)</a></p>
-    <p><a href="http://faculty.washington.edu/petersen/cadiz/14-15/llegada.htm">Map of where to meet on arrival day</a></p>
-    <p><a href="http://faculty.washington.edu/petersen/cadiz/cadizmap02.jpg">Map of where you will live</a></p>
-</body>
+    <h2>Visa Application Process</h2>
+        <p>All students who take part in the NW Cádiz program are required to obtain a Spanish Visa prior to leaving the
+            US. <br/>More details about this will be given at the required orientations for the program (you will receive
+            emails about these orientations after being admitted to the program). <br/> IMPORTANT: You do NOT need to make
+            an individual appointment with the consulate. Suzanne Petersen will take all student visa applications down to
+            the San Francisco consulate at once.</p>
+
+    <h2>Contact Information in Cádiz</h2>
+        <p><a href="http://faculty.washington.edu/petersen/cadiz/14-15/cadaddres.htm">Phones and addresses in Cádiz</a></p>
+        <p><a href="https://www.google.com/maps/place/C%C3%A1diz,+Spain/@36.5163864,-6.2824671,13z/data=!3m1!4b1!4m2!
+            3m1!1s0xd0dd25724ec240f:0x40463fd8ca03b00?hl=en">Cádiz map (Google maps)</a></p>
+        <p><a href="http://faculty.washington.edu/petersen/cadiz/14-15/llegada.htm">Map of where to meet on arrival day</a></p>
+        <p><a href="http://faculty.washington.edu/petersen/cadiz/cadizmap02.jpg">Map of where you will live</a></p>
+    <footer class="row">
+        <section id="contact">
+            <a href="#top">Back to Top &uarr;</a>
+            <br>Contact Suzanne Martinez at <a href="mailto:petersen@u.washington.edu">petersen@u.washington.edu</a>
+            <br><a href="credits.html">Credits</a>
+        </section>
+    </footer>
+    </main>
+   </body>
 
 <!--#include virtual="../common/footer.html" -->
 </html>
