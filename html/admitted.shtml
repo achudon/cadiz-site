@@ -60,12 +60,13 @@
        <div class="row">
     <div class="tabbed">
         <h3><a href="http://faculty.washington.edu/petersen/cadiz/14-15/cadaddres.htm">Phones and addresses in Cádiz</a></h3>
-           <h3><a href="https://www.google.com/maps/place/C%C3%A1diz,+Spain/@36.5163864,-6.2824671,13z/data=!3m1!4b1!4m2!
-            3m1!1s0xd0dd25724ec240f:0x40463fd8ca03b00?hl=en">Cádiz map </a>(Google maps)</h3>
            <h3><a href="http://faculty.washington.edu/petersen/cadiz/14-15/llegada.htm">Map of where to meet on arrival day</a></h3>
            <h3><a href="http://faculty.washington.edu/petersen/cadiz/cadizmap02.jpg">Map of where you will live</a></h3>
     </div>
-       </div>
+      </div>
+
+    <h1 class="section-head">Map of Cádiz</h1>
+    <div id="map" class="row"></div>
 
 
 
@@ -78,6 +79,10 @@
     </footer>
     </main>
    </body>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDO7Pus2PDjH66QhK_zIakk5vm1_K71lOA"></script>
+<script type="text/javascript" src="../js/maps.js"></script>
 
 <!--#include virtual="../common/footer.html" -->
 </html>
