@@ -6,22 +6,12 @@
 
 }
 
-.row {
-    margin-top: 7%;
-    background-color: rgba(167, 156, 145, 0.33);
-    padding: 10px;
-    margin-top: 20px;
-    overflow: hidden;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
 .welcomeImg {
+    float: right;
     margin-top: 0;
     display: block;
     height: 100%;
     width: 100%;
-    float:right;
 
 }
 
@@ -36,9 +26,9 @@
     margin-bottom: 20px ;
 }
 
-.picHolder {
-    float: right;
-    padding-right: 0;
+.container-fluid {
     padding-left: 0;
+    padding-right: 0;
+
 }
 

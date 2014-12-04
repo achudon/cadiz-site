@@ -12,10 +12,21 @@
 <body>
 <main class="container-fluid" id="top">
     <!--#include virtual="../common/header.html" -->
+    <header id="top" >
+        <h1>NW Cádiz Program</h1>
+        <nav>
+            <ul>
+                <li><a href="index.shtml">About</a></li>
+                <li><a href="prospective.shtml">Prospective</a></li>
+                <li><a href="admitted.shtml">Admitted</a></li>
+                <li><a href="brochure.html">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
 
 
     <div id="tagline">
-        <h1>Live and study in <strong>Cádiz, Spain</strong>, for a semester or a full academic year.</h1>
+        <h1>Live and study in <strong>Cádiz, Spain</strong> for a semester or a full academic year.</h1>
     </div>
 
 
@@ -70,8 +81,16 @@
         </section>
     </section>
     <!--#include virtual="../common/footer.html" -->
+    <footer class="row">
+        <section id="contact">
+            <a href="#top">Back to Top &uarr;</a>
+            <br>Contact Suzanne Martinez at <a href="mailto:petersen@u.washington.edu">petersen@u.washington.edu</a>
+            <br><a href="credits.html">Credits</a>
+        </section>
+    </footer>
 
-    </main>
+
+</main>
 
 </body>
     <script type="text/javascript" src="../js/facebookIntegration.js"></script>

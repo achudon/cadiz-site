@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="stylesheet" href="../css/admitted.css"/>
     <link rel="icon" href="../img/spain.png"/>
     <title></title>
 </head>
 <body>
 <main class="container-fluid">
-    <header id="top" class="row">
+    <header id="top">
         <h1>NW Cádiz Program</h1>
         <nav>
             <ul>
@@ -23,24 +24,51 @@
 
 
     <!--#include virtual="../common/header.html" -->
+       <h1 class="section-head">Before Leaving</h1>
 
-    <h2>Required Forms</h2>
-        <h3>Visa Application Form</h3>
-        <h3>Housing Preferences Form</h3>
+          <div class="row">
+              <h2>Required Forms</h2>
+              <div class="tabbed">
+                <h3>
+                <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                <a href="../files/houspref_spr2015.pdf">Housing Preference Form</a>
+                (pdf)
+               </h3>
 
+               <h3> <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                    <a href="http://www.exteriores.gob.es/Consulados/SANFRANCISCO/en/ConsularServices/Pages/Visas.aspx">
+                        Student Visa Application </a>(Spanish Consulate Site, click on "Student Visa")
+               </h3></div>
+
+        </div>
+
+    <div class="row">
     <h2>Visa Application Process</h2>
         <p>All students who take part in the NW Cádiz program are required to obtain a Spanish Visa prior to leaving the
             US. <br/>More details about this will be given at the required orientations for the program (you will receive
-            emails about these orientations after being admitted to the program). <br/> IMPORTANT: You do NOT need to make
+            emails about these orientations after being admitted to the program). </p>
+
+            <p>IMPORTANT: You do NOT need to make
             an individual appointment with the consulate. Suzanne Petersen will take all student visa applications down to
             the San Francisco consulate at once.</p>
+    </div>
 
-    <h2>Contact Information in Cádiz</h2>
-        <p><a href="http://faculty.washington.edu/petersen/cadiz/14-15/cadaddres.htm">Phones and addresses in Cádiz</a></p>
-        <p><a href="https://www.google.com/maps/place/C%C3%A1diz,+Spain/@36.5163864,-6.2824671,13z/data=!3m1!4b1!4m2!
-            3m1!1s0xd0dd25724ec240f:0x40463fd8ca03b00?hl=en">Cádiz map (Google maps)</a></p>
-        <p><a href="http://faculty.washington.edu/petersen/cadiz/14-15/llegada.htm">Map of where to meet on arrival day</a></p>
-        <p><a href="http://faculty.washington.edu/petersen/cadiz/cadizmap02.jpg">Map of where you will live</a></p>
+
+
+    <h1 class="section-head">In Cádiz</h1>
+
+       <div class="row">
+    <div class="tabbed">
+        <h3><a href="http://faculty.washington.edu/petersen/cadiz/14-15/cadaddres.htm">Phones and addresses in Cádiz</a></h3>
+           <h3><a href="https://www.google.com/maps/place/C%C3%A1diz,+Spain/@36.5163864,-6.2824671,13z/data=!3m1!4b1!4m2!
+            3m1!1s0xd0dd25724ec240f:0x40463fd8ca03b00?hl=en">Cádiz map </a>(Google maps)</h3>
+           <h3><a href="http://faculty.washington.edu/petersen/cadiz/14-15/llegada.htm">Map of where to meet on arrival day</a></h3>
+           <h3><a href="http://faculty.washington.edu/petersen/cadiz/cadizmap02.jpg">Map of where you will live</a></h3>
+    </div>
+       </div>
+
+
+
     <footer class="row">
         <section id="contact">
             <a href="#top">Back to Top &uarr;</a>
