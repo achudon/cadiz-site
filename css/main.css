@@ -57,6 +57,10 @@ h3 {
     padding-left: 40px;
 }
 
+.two-tab {
+    padding-left: 80px;
+}
+
 .picHolder {
     float:right;
     padding-right: 0;
@@ -72,7 +76,7 @@ h3 {
 
 }
 
-p, dt, dd {
+p, li, dt, dd {
     color: #4a5880;
     font-size: 18px;
 }
@@ -82,7 +86,7 @@ dt {
 }
 
 dd {
-
+    margin-left: 40px;
 }
 
 body a {
@@ -174,7 +178,7 @@ nav li:hover {
 }
 
 span.tab {
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 footer.row {
@@ -201,7 +205,7 @@ footer a {
 .row {
     margin-top: 7%;
     background-color: rgba(167, 156, 145, 0.33);
-    padding: 10px;
+    padding: 10px 25px;
     margin-top: 20px;
     overflow: hidden;
     margin-right: 15px;
