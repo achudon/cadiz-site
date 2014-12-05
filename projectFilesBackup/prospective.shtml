@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="icon" href="../img/spain.png"/>
+    <title>Cádiz: Prospective</title>
+</head>
+<body >
+
+<main class="container-fluid">
+<header id="top">
+    <h1>NW Cádiz Program</h1>
+    <nav>
+        <ul>
+            <li><a href="index.shtml">About</a></li>
+            <li><a href="prospective.shtml">Prospective</a></li>
+            <li><a href="admitted.shtml">Admitted</a></li>
+            <li><a href="brochure.html">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<!--#include virtual="../common/header.html" -->
+
+	<h1 class="section-head">Apply Now</h1>
+
+    <div class="row">
+        <h2>Application deadlines:</h2>
+        <div class="tabbed">
+            <h3>Fall Semester: March 20</h3>
+            <h3>Spring Semester: October 20</h3>
+        </div>
+            <p>A limited number of early admissions will be granted to exceptionally qualified applicants before the published
+            application deadline. In general, priority is given to year-long over single
+            semester students and to more advanced students over those less advanced (in Spanish).</p>
+
+    </div>
+
+
+
+    <div class="row">
+        <h2>Application forms:</h2>
+        <div class="tabbed">
+            <h3>
+                <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf">Departmental Application</a>
+                    (pdf)
+            </h3>
+
+            <h3> <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                <a href="https://studyabroad.washington.edu/index.cfm?Program_Type_ID=O&Program_Name=&pt=%7F&pi=Cadiz%7F&pc
+                =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1">
+                International Programs and Exchanges (IPE) Application</a> (IPE site)
+            </h3>
+        </div>
+    </div>
+
+    <h1 class="section-head">Videos</h1>
+
+    <div class="row">
+        <div class="col-md-5 text">
+            <h2>Life in Cádiz</h2>
+            <p>This video was made by a past student and shows their experiences during the program.</p>
+    </div>
+        <div class="col-md-6 vidHolder">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/4T0QykJFnAs" frameborder="0"
+                    allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-5 text">
+            <h2>Mowlihawk - Cádiz Siempre Dentro De Mi</h2>
+            <p>Video by a local rapper showing the scenery of Cadiz.</p>
+        </div>
+        <div class="col-md-6 vidHolder">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/M8WFUI-3afQ" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <footer class="row">
+        <section id="contact">
+            <a href="#top">Back to Top &uarr;</a>
+            <br>Contact Suzanne Martinez at <a href="mailto:petersen@u.washington.edu">petersen@u.washington.edu</a>
+            <br><a href="credits.html">Credits</a>
+        </section>
+    </footer>
+</main>
+    <!--#include virtual="../common/footer.html" -->
+</body>
+</html>

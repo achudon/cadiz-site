@@ -9,7 +9,6 @@
     <title>Admitted</title>
 </head>
 <body>
-    <main class="container-fluid">
     <!--#include virtual="../common/header.html" -->
        <h1 class="section-head">Before Leaving</h1>
 
