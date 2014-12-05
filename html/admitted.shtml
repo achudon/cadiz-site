@@ -63,5 +63,4 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDO7Pus2PDjH66QhK_zIakk5vm1_K71lOA"></script>
 <script type="text/javascript" src="../js/maps.js"></script>
 
-<!--#include virtual="../common/footer.html" -->
 </html>
