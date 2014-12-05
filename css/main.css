@@ -26,10 +26,10 @@ body {
 
 }
 
-#gallery {
-    background-image: url(../img/eight_horns.png);
-    background-attachment: fixed;
-}
+/*#gallery {*/
+    /*background-image: url(../img/eight_horns.png);*/
+    /*background-attachment: fixed;*/
+/*}*/
 
 main {
     margin: 0;
@@ -103,14 +103,12 @@ body a {
     text-decoration: none;
 }
 
-header a:link {
+header a:link, header a:visited {
     color: white;
+    text-decoration: none;
 }
 
-header a:visited {
-    color:white;
-}
-a:hover {
+a:hover, {
     text-decoration: none;
     color: #8a8a8a;
 }
@@ -230,26 +228,66 @@ footer a {
     margin-left: 15px;
 }
 
+/*.row-gallery {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
 .vidHolder {
     padding-right: 0;
     padding-left: 0;
 }
 
 #gallery img {
+    padding: 15px 0;
     width: 100%;
+    height: 100%;
     margin-left: 0;
 }
 
+@media (min-width: 540px) {
+    #gallery img {
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+    }
+    .crop {
+        height: 200px;
+        width: 100%;
+        overflow: hidden;
+    }
+    .crop img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+/*When screen gets bigger, make font size larger */
+@media (min-width: 700px) {
+    header h1 {
+        font-size: 70px;
+    }
+
+    nav {
+        font-size: 125%;
+    }
+}
+
 /*when screen becomes mobile size, change padding*/
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     body {
         background: white;
         font-size: 18px;
     }
 
     /*main.container-fluid {*/
-        /*padding: 0;*/
+    /*padding: 0;*/
     /*}*/
+    #gallery img {
+        width: 100%;
+        height: 100%;
+    }
 
     #tagline {
         display: inline;
@@ -259,14 +297,16 @@ footer a {
         display: block;
     }
 
-    header {
-        position: relative;
-    }
-
     .vidHolder {
         float:right;
     }
 
+}
+
+@media (min-width: 1000px) {
+    #gallery img {
+        margin: 0;
+    }
 }
 
 /* When screen becomes very large, fix the size of the body */
@@ -279,16 +319,10 @@ footer a {
     }
 }
 
-/*When screen gets bigger, make font size larger */
-@media (min-width: 700px) {
-    header h1 {
-        font-size: 70px;
-    }
 
-    nav {
-        font-size: 125%;
-    }
-}
+
+
+
 
 
 
