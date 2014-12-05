@@ -2,34 +2,38 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/main.css"/>
     <link rel="icon" href="../img/spain.png"/>
     <title>NW Cádiz Credits</title>
 </head>
 <body>
-    <!--#include virtual="../common/header.html" -->
-    <h1>Credits (for images and other material found on the site)</h1>
-    <dl id="credits">
-        <dt>Icon</dt>
-        <dd>Vathanx, under <a href="http://creativecommons.org/licenses/by-nc/3.0/nl/deed.en_GB">CC license BY-NC
-            3.0 NL</a>. For image, see <a href="https://www.iconfinder.com/icons/96317/flag_of_spain_icon#size=256">
-            https://www.iconfinder.com/icons/96317/flag_of_spain_icon#size=256</a>.</dd>
+        <!--#include virtual="../common/header.html" -->
+        <h1>Credits (for images and other material found on the site)</h1>
+        <div class="row">
+            <dl id="credits">
+                <dt>Icon</dt>
+                <dd>Vathanx, under <a href="http://creativecommons.org/licenses/by-nc/3.0/nl/deed.en_GB">CC license BY-NC
+                    3.0 NL</a>. For image, see <a href="https://www.iconfinder.com/icons/96317/flag_of_spain_icon#size=256">
+                    https://www.iconfinder.com/icons/96317/flag_of_spain_icon#size=256</a>.</dd>
 
-        <dt>Gallery Photos, Camels, Beach Pictures on About page, Header Photo</dt>
-        <dd>Rebecca Bennett, Stephen LaPlante, Katrina Peters, Judith Prado</dd>
+                <dt>Gallery Photos, Camels, Beach Pictures on About page, Header Photo</dt>
+                <dd>Rebecca Bennett, Stephen LaPlante, Katrina Peters, Judith Prado</dd>
 
-        <dt>University of Cádiz picture on About page</dt>
-        <dd><a href="http://www.geneseo.edu/study_abroad/cadiz-semester-exchange">http://www.geneseo.edu/study_abroad/
-            cadiz-semester-exchange
-        </a>
+                <dt>University of Cádiz picture on About page</dt>
+                <dd><a href="http://www.geneseo.edu/study_abroad/cadiz-semester-exchange">http://www.geneseo.edu/study_abroad/
+                    cadiz-semester-exchange
+                </a>
 
-        <dt>Background Image</dt>
-        <dd>Patutin Sergey on <a href="http://subtlepatterns.com/">subtlepatterns.com</a></dd>
-        </dd>
+                <dt>Background Image</dt>
+                <dd>Patutin Sergey on <a href="http://subtlepatterns.com/">subtlepatterns.com</a></dd>
+                </dd>
 
-        <dt></dt>
-    </dl>
-    <!--#include virtual="../common/footer.html" -->
+                <dt></dt>
+            </dl>
+        </div>
+        <!--#include virtual="../common/footer.html" -->
+    </main>
 
 
 </body>
