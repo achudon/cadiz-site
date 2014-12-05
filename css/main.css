@@ -29,6 +29,7 @@ body {
 main {
     margin: 0;
     background-image: url(../img/foggy_birds_@2X.png);
+    background-attachment: fixed;
     padding-left: 0;
     padding-right: 0;
 }
@@ -185,20 +186,28 @@ span.tab {
     padding-left: 40px;
 }
 
+.small-pic {
+    width: 250px;
+    height: 250px;
+    padding: 1em;
+    margin-left: 9%;
+    cursor: pointer;
+}
+
 footer.row {
     margin-top: 20px;
     background-color: #2a6c74;
     opacity: 0.9;
     text-align: right;
     padding-right: 15px;
-    color: white;
+    color: #ababab;
     margin-left: 0;
     margin-right: 0;
 
 }
 
 footer a {
-    color: #ababab;
+    color: white;
 }
 
 #contact {
@@ -221,9 +230,13 @@ footer a {
     padding-left: 0;
 }
 
+#gallery img {
+    width: 100%;
+    margin-left: 0;
+}
 
 /*when screen becomes mobile size, change padding*/
-@media (min-width: 992px) {
+@media (min-width: 992px) { 
     body {
         background: white;
         font-size: 18px;

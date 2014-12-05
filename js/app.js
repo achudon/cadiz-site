@@ -1,5 +1,6 @@
 /*This retrieves the click event of the image and allows the user to expand the image's src in a modal pop up box */
 $(document).ready(function() {
+
     /*takes small pictures and sets the attribute of src */
     $(".small-pic").on('click',function() {
 
