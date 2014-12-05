@@ -26,6 +26,11 @@ body {
 
 }
 
+#gallery {
+    background-image: url(../img/eight_horns.png);
+    background-attachment: fixed;
+}
+
 main {
     margin: 0;
     background-image: url(../img/eight_horns.png);
