@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="../css/main.css"/>
     <link rel="stylesheet" href="../css/admitted.css"/>
     <link rel="icon" href="../img/spain.png"/>
-    <title></title>
+    <title>Admitted</title>
 </head>
 <body>
     <!--#include virtual="../common/header.html" -->
