@@ -8,6 +8,7 @@
     <title>NW Cádiz Credits</title>
 </head>
 <body>
+    <main class="container-fluid">
         <!--#include virtual="../common/header.html" -->
         <h1>Credits (for images and other material found on the site)</h1>
         <div class="row">
