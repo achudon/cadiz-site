@@ -10,7 +10,7 @@
 <body>
     <main class="container-fluid">
         <!--#include virtual="../common/header.html" -->
-        <h1>Credits (for images and other material found on the site)</h1>
+        <h1 class="section-head"> Credits (for images and other material found on the site)</h1>
         <div class="row">
             <dl id="credits">
                 <dt>Icon</dt>
