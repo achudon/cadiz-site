@@ -1,330 +1,39 @@
-@import url(http://fonts.googleapis.com/css?family=Didact+Gothic|Handlee);
-
 body {
-    margin: 0;
-    padding: 0;
-    color: #193A41;
-    font-family: 'Didact Gothic', 'Helvetica Neue', sans-serif;
-    background: white;
-    height: 100%;
-}
-
-#tagline {
-    display: none;
-}
-
-#map {
-    height: 400px;
-}
-
-.welcomeImg {
-    margin-top: 0;
-    display: block;
-    height: 100%;
-    width: 100%;
-    float:right;
-
-}
-
-/*#gallery {*/
-    /*background-image: url(../img/eight_horns.png);*/
-    /*background-attachment: fixed;*/
-/*}*/
-
-main {
-    margin: 0;
-    background-image: url(../img/eight_horns.png);
-    background-attachment: fixed;
-    padding-left: 0;
-    padding-right: 0;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    padding-top: 50px;
 }
 
 .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-h1 {
-    font-size: 3em;
-    color: #457D8D;
-    padding: 10px 20px;
-}
-
-h2 {
-    color: #5d5c4d
-}
-
-h3 {
-    color: #52555e;
-}
-
-.section-head {
-    text-align: center;
-    font-size: 35px;
-}
-
-.tabbed {
-    padding-left: 40px;
-}
-
-.two-tab {
-    padding-left: 80px;
-}
-
-.picHolder {
-    float:right;
-    padding-right: 0;
-    padding-left: 0;
-}
-
-.welcomeImg {
-    float: right;
-    margin-top: 0;
-    display: block;
-    height: 100%;
-    width: 100%;
-
-}
-
-p, li, dt, dd {
-    color: #4a5880;
-    font-size: 18px;
-}
-
-dt {
-    font-weight: bold;
-}
-
-dd {
-    margin-left: 40px;
-}
-
-body a {
-    text-decoration: none;
-}
-
-header a:link, header a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover, {
-    text-decoration: none;
-    color: #8a8a8a;
-}
-
-iframe {
-    width: 100%;
-}
-
-
-header {
-    margin: 0;
-    height: 130px;
-    background-image: url(../img/headerbground2.jpg);
-    background-position: 0%, 50%;
-    background-size: cover;
-}
-
-header h1 {
-    font-family: 'Handlee', 'Helvetica Neue', sans-serif;
-    font-size: 37px;
-    color: white;
-    text-shadow: 3px 3px gray;
-    margin-top: 17px;
-    padding-top: 30px;
-    padding-left: 10px;
-    line-height: .5em;
-    background-color: transparent;
-}
-
-nav {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 2%;
-    background-color: rgba(35, 83, 91, 0.77);
-    position: absolute;
-    font-size: 10pt;
-}
-
-nav ul {
     padding: 0;
-    margin: 0;
 }
-nav li {
-    padding: 5px 20px;
-    list-style-type: none;
-    display: inline-block;
-}
-
-
-nav li:hover {
-    background-color: rgb(36, 85, 93);
+.background {
+    background-image: url('../img/headerbground2.jpg');
+    padding: 15px 0 0 0;
+    background-size: cover;
+    height: 100vh;
 }
 
-#side-menu {
-    display: none;
-    float: left;
-    clear: both;
-}
-
-#side-menu {
-    padding-left: 0;
-    list-style-type: none;
-    font-size: .9em;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-#side-menu li {
-    background-color: rgba(116, 168, 218, 0.25);
-    margin-bottom: 5px;
-    padding: 10px;
+.background h1 {
+    text-align: center;
+    margin: 0 10px;
+    padding-bottom: 5px;
     border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: #4a5880;
+    border-bottom-width: 4px;
+    margin-bottom: 20px;
 }
 
-span.tab {
-    padding-left: 40px;
-}
-
-.small-pic {
-    width: 250px;
-    height: 250px;
-    padding: 1em;
+.background h2 {
     margin-left: 9%;
-    cursor: pointer;
 }
 
-footer.row {
-    margin-top: 20px;
-    background-color: #2a6c74;
-    opacity: 0.9;
-    text-align: right;
-    padding-right: 15px;
-    color: #ababab;
-    margin-left: 0;
-    margin-right: 0;
-
+img {
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-footer a {
-    color: white;
+#pictures {
+    background-color: rgba(51, 51, 51, 0.50);
+    padding-bottom: 20px;
 }
-
-#contact {
-    font-size: 18px;
-    padding-bottom: 0;
-}
-
-.row {
-    margin-top: 7%;
-    background-color: rgba(167, 156, 145, 0.33);
-    padding: 10px 25px;
-    margin-top: 20px;
-    overflow: hidden;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-/*.row-gallery {*/
-    /*margin: 0;*/
-    /*padding: 0;*/
-/*}*/
-
-.vidHolder {
-    padding-right: 0;
-    padding-left: 0;
-}
-
-#gallery img {
-    padding: 15px 0;
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
-}
-
-@media (min-width: 540px) {
-    #gallery img {
-        width: 50%;
-        margin-left: 25%;
-    }
-
-}
-
-
-/*When screen gets bigger, make font size larger */
-@media (min-width: 700px) {
-    .crop {
-        height: 250px;
-        width: 100%;
-        overflow: hidden;
-    }
-    .crop img {
-        width: 100%;
-        height: 100%;
-    }
-
-    header h1 {
-        font-size: 70px;
-    }
-
-    nav {
-        font-size: 125%;
-    }
-}
-
-/*when screen becomes mobile size, change padding*/
-@media (min-width: 992px) {
-    body {
-        background: white;
-        font-size: 18px;
-    }
-
-    /*main.container-fluid {*/
-    /*padding: 0;*/
-    /*}*/
-    #gallery img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #tagline {
-        display: inline;
-    }
-
-    #side-menu {
-        display: block;
-    }
-
-    .vidHolder {
-        float:right;
-    }
-
-}
-
-@media (min-width: 1000px) {
-    #gallery img {
-        margin: 0;
-    }
-}
-
-/* When screen becomes very large, fix the size of the body */
-@media (min-width: 1200px) {
-    main {
-        width: 948px;
-    }
-    body {
-        margin: auto;
-    }
-}
-
-
-
-
-
-
-
-
-

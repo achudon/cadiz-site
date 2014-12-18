@@ -17,7 +17,7 @@
 <h1 class="section-head">Program Brochure</h1>
 
 <div class="row">
-    <h2>Introduction</h2>
+    <h2 id="intro">Introduction</h2>
     <p><span class="tab"></span>The NW CÁDIZ program offers American students the opportunity to live and study in Cádiz, Spain, for one semester
     or a full academic year. Administered by the University of Washington, this study-abroad program operates under a
     formal working agreement with the University of Cádiz. It is the only full-year American study-abroad program located
