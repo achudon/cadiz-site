@@ -1,39 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Domine|Varela+Round);
+
 body {
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    padding-top: 50px;
+    font-family: 'Varela Round','Helvetica Neue', Helvetica, sans-serif;
+    padding: 50px 0 0 0;
+    color: white;
+    margin-bottom: 60px;
+
 }
 
-.container-fluid {
-    padding: 0;
+html {
+    position: relative;
+    min-height: 100%;
 }
-.background {
+
+section {
+    padding: 60px 0;
+}
+
+iframe {
+    padding: 15px 0;
+}
+
+#first {
     background-image: url('../img/headerbground2.jpg');
-    padding: 15px 0 0 0;
+    padding: 0;
+    margin: 0;
     background-size: cover;
-    height: 100vh;
 }
 
-.background h1 {
-    text-align: center;
+#first a {
+    color: antiquewhite;
+}
+
+.gray-background {
+    padding: 60px 0;
+    background-color: rgba(100, 100, 100, 0.56);
+}
+
+.even {
+    background-color: #4D7EC0;
+}
+
+.odd {
+    background-color: rgba(95, 168, 192, 0.85);
+}
+
+.row {
+    margin: 0;
+}
+h1, h2, h3, p {
     margin: 0 10px;
-    padding-bottom: 5px;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/*Format the title of a page and the description text below it*/
+.title {
+    font-size: 1.5em;
+}
+
+ul li {
+    font-size: 1.2em;
+}
+
+p .small {
+    font-size: 1em;
+}
+
+/*Format how images display*/
+img {
+    max-width: 100%;
+    display: block;
+
+}
+
+h1, h2 {
+    font-family: 'Domine', Georgia, serif;
+    text-align: left;
+    margin: 0 10px;
+    padding: 5px 0;
     border-bottom-style: solid;
-    border-bottom-width: 4px;
     margin-bottom: 20px;
 }
 
-.background h2 {
-    margin-left: 9%;
+h3 {
+    padding-bottom: 0;
 }
 
-img {
-    width: 80vw;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.main-content {
+    padding: 0;
+    margin: 0;
 }
 
-#pictures {
-    background-color: rgba(51, 51, 51, 0.50);
-    padding-bottom: 20px;
+#map {
+    height: 250px;
+}
+
+#map img {
+    max-width: none;
+}
+/*code for sticky footer*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #222222;
+    color: #7A7A7A;
 }

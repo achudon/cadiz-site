@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="icon" href="../img/spain.png"/>
+    <title>NW Cádiz</title>
+</head>
+
+<body>
+<main>
+    <!--#include virtual="../common/header.html" -->
+    <header class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">NW Cádiz</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">First Glance<span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="brochure.shtml" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false">Brochure<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="brochure.shtml/#intro">Introduction</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="apply-now.shtml">Apply Now</a></li>
+                        <li><a href="post-admission.shtml">Post-Admission</a></li>
+                        <li><a href="gallery.shtml">Gallery</a></li>
+                        <li><a href="calendar.shtml">Program Calendar</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--page header and picture-->
+    </header>
+
+
+    <div class="main-content container-fluid">
+        <section id="first">
+            <div class="gray-background">
+            <div class="row title">
+                <div class="col-sm-6">
+                    <h1 id="title">WHAT IS NW CÁDIZ?</h1>
+                    <p id="title-descr">A study abroad program established in <strong>1997</strong>, run by the University
+                        of Washington in collaboration with the University of Cádiz.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="../img/img13.jpg" alt=""/>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="even">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Where is Cádiz?</h2>
+                    <p>Located in the province of Andalusia in the south of Spain, close to Morocco
+                    and Seville.</p>
+                </div>
+                <div class="col-sm-6">
+                    <div id="map"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="odd">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>What is Cádiz like?</h2>
+                <p>Watch these videos and see for yourself!</p>
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>NW Cádiz Otoño 2010</h3>
+                        <p class="small">By a former student, exemplifies the Cádiz experience.</p>
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4T0QykJFnAs"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Mowlihawk- Cádiz siempre dentro de mí</h3>
+                        <p class="small">By a local rapper, shows the scenery of Cádiz.</p>
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M8WFUI-3afQ"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="small">Contact Suzanne Petersen: <a href="mailto:petersen@u.washington.edu">petersen@u.washington.edu</a></p>
+        </div>
+    </footer>
+
+    <!--#include virtual="../common/footer.html" -->
+</main>
+
+</body>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf70ptqfy8NbSKBkWF4YvB104WAnKIpBc"></script>
+<script src="../js/maps.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</html> 

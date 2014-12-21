@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css"/>
+    <link rel="icon" href="../img/spain.png"/>
+    <title>Cádiz: Apply Now</title>
+</head>
+<body>
+
+<main>
+    <header class="container-fluid">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">NW Cádiz</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">First Glance<span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="brochure.shtml" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false">Brochure<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="brochure.shtml/#intro">Introduction</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a href="apply-now.shtml">Apply Now</a></li>
+                        <li><a href="post-admission.shtml">Post-Admission</a></li>
+                        <li><a href="gallery.shtml">Gallery</a></li>
+                        <li><a href="calendar.shtml">Program Calendar</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--page header and picture-->
+    </header>
+
+    <div class="main-content container-fluid">
+        <section id="first">
+        <div class="gray-background">
+            <div class="row">
+                <div class="col-sm-6">
+            <h1>HOW DO I APPLY TO THE PROGRAM?</h1>
+            <p class="title">In order to apply to the program, you must complete the following paperwork:
+                <ul>
+                    <li><span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                        <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf">Departmental Application</a>
+                        (pdf)
+                    </li>
+                    <li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                        <a href="https://studyabroad.washington.edu/index.cfm?Program_Type_ID=O&Program_Name=&pt=%7F&pi=Cadiz%7F&pc
+                =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1">
+                            International Programs and Exchanges (IPE) Application</a> (IPE site)</li>
+                </ul>
+
+            </p>
+            <p>BOTH of these forms are required in order for you to be considered for program.</p>
+
+            <p class="title">Please see below for additional information on:
+                <ul>
+                    <li>Program Cost and Payment</li>
+                    <li>Key Dates</li>
+                    <li>Courses Offered</li>
+                </ul>
+            </p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+            <div>
+                <h2>Application deadlines:</h2>
+                <div class="tabbed">
+                    <h3>Fall Semester: March 20</h3>
+                    <h3>Spring Semester: October 20</h3>
+                </div>
+                    <p>Generally all qualified candidates who complete the application on time are accepted.</p>
+            </div>
+
+
+
+
+    <div>
+        <h2>Application forms:</h2>
+        <div class="tabbed">
+            <h3>
+                <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf">Departmental Application</a>
+                    (pdf)
+            </h3>
+
+            <h3> <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                <a href="https://studyabroad.washington.edu/index.cfm?Program_Type_ID=O&Program_Name=&pt=%7F&pi=Cadiz%7F&pc
+                =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1">
+                International Programs and Exchanges (IPE) Application</a> (IPE site)
+            </h3>
+        </div>
+    </div>
+    </div> <!--end of div.main-content.container-fluid-->
+
+</main>
+</body>
+</html>
