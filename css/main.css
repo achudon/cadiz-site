@@ -29,26 +29,38 @@ iframe {
 }
 
 #first a {
-    color: antiquewhite;
+    color: #21d6ff;
+    font-weight: bold;
 }
 
 .gray-background {
     padding: 60px 0;
-    background-color: rgba(100, 100, 100, 0.56);
+    background-color: rgba(100, 100, 100, 0.62);
 }
 
 .even {
+    border-top: double;
+    border-top-width: 6px;
+    border-top-color: #222222;
     background-color: #4D7EC0;
 }
 
 .odd {
+    border-top: double;
+    border-top-width: 6px;
+    border-top-color: #222222;
     background-color: rgba(95, 168, 192, 0.85);
 }
 
 .row {
     margin: 0;
 }
-h1, h2, h3, p {
+
+.tabbed {
+    margin-left: 40px;
+}
+
+h1, h2, h3, h4, p {
     margin: 0 10px;
     padding: 10px 0;
 }
@@ -63,7 +75,7 @@ p {
 }
 
 ul li {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 p .small {
@@ -74,7 +86,9 @@ p .small {
 img {
     max-width: 100%;
     display: block;
-
+    border-style: solid;
+    border-width: 3px;
+    border-color: #222222;
 }
 
 h1, h2 {

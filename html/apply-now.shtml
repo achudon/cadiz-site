@@ -26,7 +26,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">First Glance<span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="#">First Glance<span class="sr-only">(current)</span></a></li>
                         <li class="dropdown">
                             <a href="brochure.shtml" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-expanded="false">Brochure<span class="caret"></span></a>
@@ -38,7 +38,7 @@
                                 <li><a href="#">Separated link</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="apply-now.shtml">Apply Now</a></li>
+                        <li><a href="apply-now.shtml">Apply Now</a></li>
                         <li><a href="post-admission.shtml">Post-Admission</a></li>
                         <li><a href="gallery.shtml">Gallery</a></li>
                         <li><a href="calendar.shtml">Program Calendar</a></li>
@@ -57,25 +57,28 @@
                 <div class="col-sm-6">
             <h1>HOW DO I APPLY TO THE PROGRAM?</h1>
             <p class="title">In order to apply to the program, you must complete the following paperwork:
-                <ul>
-                    <li><span class="glyphicon glyphicon-file" aria-hidden="true"></span>
-                        <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf">Departmental Application</a>
-                        (pdf)
-                    </li>
-                    <li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                <h4><span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                    <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf" target="_blank">
+                        Departmental Application</a>
+                    (pdf)
+                </h4>
+                <p class="tabbed"> Requires basic information, as well as the names of 2 college-level Spanish professors who will
+                    recommend you to the program.</p>
+                <h4><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
                         <a href="https://studyabroad.washington.edu/index.cfm?Program_Type_ID=O&Program_Name=&pt=%7F&pi=Cadiz%7F&pc
-                =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1">
-                            International Programs and Exchanges (IPE) Application</a> (IPE site)</li>
-                </ul>
-
+                =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1"  target="_blank">
+                            IPE Application</a> (IPE site)
+                </h4>
+                <p class="tabbed">Requires you to respond to some short answer questions and write one essay on why you want to be part of
+                    the program.</p>
             </p>
-            <p>BOTH of these forms are required in order for you to be considered for program.</p>
+            <p class="title"><strong>BOTH </strong>of these forms are required in order for you to be considered for program.</p>
 
             <p class="title">Please see below for additional information on:
                 <ul>
-                    <li>Program Cost and Payment</li>
-                    <li>Key Dates</li>
-                    <li>Courses Offered</li>
+                    <li><a href="#">Program Cost and Payment</a></li>
+                    <li><a href="#">Key Dates</a></li>
+                    <li><a href="#">Courses Offered</a></li>
                 </ul>
             </p>
                 </div>
@@ -115,4 +118,6 @@
 
 </main>
 </body>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </html>
