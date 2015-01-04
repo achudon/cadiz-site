@@ -21,12 +21,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">NW Cádiz</a>
+                    <span class="navbar-brand" href="#">NW Cádiz</span>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="first-glance.shtml">First Glance</a></li>
+                        <li class="active"><a href="#">First Glance</a></li>
                         <li class="dropdown">
                             <a href="brochure.shtml" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-expanded="false">Brochure<span class="caret"></span></a>
@@ -38,7 +38,7 @@
                                 <li><a href="#">Separated link</a></li>
                             </ul>
                         </li>
-                        <li class="active"><a href="#">Apply Now<span class="sr-only">(current)</span></a></li>
+                        <li><a href="apply-now.shtml">Apply Now<span class="sr-only">(current)</span></a></li>
                         <li><a href="post-admission.shtml">Post-Admission</a></li>
                         <li><a href="gallery.shtml">Gallery</a></li>
                         <li><a href="calendar.shtml">Program Calendar</a></li>
@@ -52,8 +52,7 @@
 
 
     <div class="main-content container-fluid">
-        <section id="first">
-            <div class="gray-background">
+        <section class="first" id="opening-section">
             <div class="row title">
                 <div class="col-sm-6">
                     <h1 id="title">WHAT IS NW CÁDIZ?</h1>
@@ -64,18 +63,18 @@
                     <img src="../img/img13.jpg" alt=""/>
                 </div>
                 </div>
-            </div>
         </section>
 
         <section class="even">
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>Where is Cádiz?</h2>
-                    <p>Located in the province of Andalusia in the south of Spain, close to Morocco
-                    and Seville.</p>
+                    <div id="map"></div>
                 </div>
                 <div class="col-sm-6">
-                    <div id="map"></div>
+                    <h2>Where is Cádiz?</h2>
+                    <p>Located in the province of Andalusia in the south of Spain, close to Morocco
+                        and Seville.</p>
+
                 </div>
 
             </div>
@@ -87,25 +86,26 @@
                 <h2>What is Cádiz like?</h2>
                 <p>Watch these videos and see for yourself!</p>
             </div>
-            <div class="col-sm-6">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h3>NW Cádiz Otoño 2010</h3>
+        </div>
+            <div class="row">
+                <div class="col-md-5 videos">
+                        <h3 class="vid-title">NW Cádiz, Otoño '10</h3>
                         <p class="small">By a former student, shows the Cádiz experience.</p>
+
                         <div class="embed-responsive embed-responsive-4by3">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4T0QykJFnAs"></iframe>
                         </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <h3>Mowlihawk- Cádiz siempre dentro de mí</h3>
+                </div>
+
+                <div class="col-md-5 videos">
+                        <h3 class="vid-title">Cádiz siempre dentro de mí</h3>
                         <p class="small">By a local rapper, shows the scenery of Cádiz.</p>
+
                         <div class="embed-responsive embed-responsive-4by3">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/M8WFUI-3afQ"></iframe>
                         </div>
-                    </div>
                 </div>
             </div>
-        </div>
         </section>
     </div>
 

@@ -51,70 +51,73 @@
     </header>
 
     <div class="main-content container-fluid">
-        <section id="first">
-        <div class="gray-background">
+        <section class="first">
             <div class="row">
                 <div class="col-sm-6">
-            <h1>HOW DO I APPLY TO THE PROGRAM?</h1>
-            <p class="title">In order to apply to the program, you must complete the following paperwork:
-                <h4><span class="glyphicon glyphicon-file" aria-hidden="true"></span>
-                    <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf" target="_blank">
-                        Departmental Application</a>
-                    (pdf)
-                </h4>
-                <p class="tabbed"> Requires basic information, as well as the names of 2 college-level Spanish professors who will
-                    recommend you to the program.</p>
-                <h4><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                        <a href="https://studyabroad.washington.edu/index.cfm?Program_Type_ID=O&Program_Name=&pt=%7F&pi=Cadiz%7F&pc
-                =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1"  target="_blank">
-                            IPE Application</a> (IPE site)
-                </h4>
-                <p class="tabbed">Requires you to respond to some short answer questions and write one essay on why you want to be part of
-                    the program.</p>
-            </p>
-            <p class="title"><strong>BOTH </strong>of these forms are required in order for you to be considered for program.</p>
-
-            <p class="title">Please see below for additional information on:
-                <ul>
-                    <li><a href="#">Program Cost and Payment</a></li>
-                    <li><a href="#">Key Dates</a></li>
-                    <li><a href="#">Courses Offered</a></li>
-                </ul>
-            </p>
+                    <h1>HOW DO I APPLY TO THE PROGRAM?</h1>
                 </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="title">In order to apply to the program, you must complete the following paperwork:
+                        <h4><span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                            <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf" target="_blank">
+                                Departmental Application</a>
+                            (pdf)
+                        </h4>
+                        <p class="tabbed"> Requires basic information, as well as the names of 2 college-level Spanish professors who will
+                            recommend you to the program.</p>
+                        <h4><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+                                <a href="https://studyabroad.washington.edu/index.cfm?Program_Type_ID=O&Program_Name=&pt=%7F&pi=Cadiz%7F&pc
+                        =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1"  target="_blank">
+                                    IPE Application</a> (IPE site)
+                        </h4>
+                        <p class="tabbed">Requires you to respond to some short answer questions and write one essay on why you want to be part of
+                            the program.</p>
+                    </p>
+                    <p class="title"><strong>BOTH </strong>of these forms are required in order for you to be considered for the program.</p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="title"><strong>APPLICATION DEADLINES:</strong></p>
+
+                    <p class="title tabbed">Fall Semester: March 20</p>
+                    <p class="title tabbed">Spring Semester: October 20</p>
+
+                    <p>Generally all qualified candidates who complete the application on time are accepted.</p>
+                    <p class="title">Please see below for additional information on:
+                        <ul class="tabbed">
+                            <li><a href="#">Program Cost and Payment</a></li>
+                            <li><a href="#">Key Dates</a></li>
+                            <li><a href="#">Courses Offered</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
         </section>
 
-            <div>
-                <h2>Application deadlines:</h2>
-                <div class="tabbed">
-                    <h3>Fall Semester: March 20</h3>
-                    <h3>Spring Semester: October 20</h3>
-                </div>
-                    <p>Generally all qualified candidates who complete the application on time are accepted.</p>
-            </div>
+        <section class="even" id="program-cost">
+            <h2>Program Cost and Payment</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad alias cum exercitationem, fugiat maiores non provident sint suscipit. Earum id in laboriosam optio placeat sed sequi totam ullam vel vitae!</p>
+        </section>
+
+        <section class="even" id="key-dates">
+            <h2>Key Dates</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem cumque distinctio ea ex exercitationem facilis fuga, iste laudantium nihil optio quaerat repellendus unde veritatis voluptate voluptates voluptatum? Eaque, ipsa!</p>
+        </section>
+
+        <section class="even" id="courses-offered">
+            <h2>Courses Offered</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam at autem, corporis delectus eveniet exercitationem fugit illo labore magni, necessitatibus odit quas saepe sequi sit sunt, temporibus velit veritatis.</p>
+        </section>
 
 
-
-
-    <div>
-        <h2>Application forms:</h2>
-        <div class="tabbed">
-            <h3>
-                <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
-                <a href="http://faculty.washington.edu/petersen/cadiz/appform2014b.pdf">Departmental Application</a>
-                    (pdf)
-            </h3>
-
-            <h3> <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-                <a href="https://studyabroad.washington.edu/index.cfm?Program_Type_ID=O&Program_Name=&pt=%7F&pi=Cadiz%7F&pc
-                =%7F&pr=%7F&FuseAction=Programs.SearchResults&SimpleSearch=1">
-                International Programs and Exchanges (IPE) Application</a> (IPE site)
-            </h3>
-        </div>
-    </div>
     </div> <!--end of div.main-content.container-fluid-->
+
+    <footer class="footer">
+        <div class="container">
+            <p class="small">Contact Suzanne Petersen: <a href="mailto:petersen@u.washington.edu">petersen@u.washington.edu</a></p>
+        </div>
+    </footer>
 
 </main>
 </body>

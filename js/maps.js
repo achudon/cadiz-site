@@ -20,4 +20,9 @@ $( document ).ready(function() {
         title: 'Cádiz'
     });
 
+    google.maps.event.addListener(map, 'zoom_changed', function() {
+       //reset Cádiz to be the center of the map when the zoom changes
+       map.setCenter(cadizMarker.getPosition());
+    });
+
 });
