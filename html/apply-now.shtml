@@ -21,24 +21,35 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">NW Cádiz</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">First Glance<span class="sr-only">(current)</span></a></li>
                         <li class="dropdown">
-                            <a href="brochure.shtml" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-expanded="false">Brochure<span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false">NW CÁDIZ<span class="caret"></span><span class="sr-only">(current)</span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="brochure.shtml/#intro">Introduction</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#introduction">Introduction</a></li>
+                                <li><a href="#key-dates">Key Dates</a></li>
+                                <li><a href="#about-cadiz">About Cádiz</a></li>
+                                <li><a href="#u-cadiz">The University of Cádiz</a></li>
+                                <li><a href="#curriculum">Curriculum</a></li>
+                                <li><a href="#admin">Program Administration</a></li>
+                                <li><a href="#eligibility">Eligibility and Enrollment</a></li>
+                                <li><a href="#deadlines">Application Deadlines and Guidelines</a></li>
+                                <li><a href="#cost">Program Cost</a></li>
+                                <li><a href="#payment-schedule">Payment Schedule and Refund Policy</a></li>
+                                <li><a href="#travel">Travel Arrangements</a></li>
+                                <li><a href="#housing">Housing Arrangements in Cádiz</a></li>
+                                <li><a href="#insurance">Medical Insurance</a></li>
+                                <li><a href="#vacations">Vacation Periods</a></li>
+                                <li><a href="#food">Eating in Cádiz</a></li>
+                                <li><a href="#responsibility">Responsibility</a></li>
+                                <li><a href="#more-info">Further Information</a></li>
+                                <li><a href="#other-resources">Other Resources</a></li>
                             </ul>
                         </li>
-                        <li><a href="apply-now.shtml">Apply Now</a></li>
+                        <li class="active"><a href="apply-now.shtml" >Apply Now</a></li>
                         <li><a href="post-admission.shtml">Post-Admission</a></li>
                         <li><a href="gallery.shtml">Gallery</a></li>
                         <li><a href="calendar.shtml">Program Calendar</a></li>
